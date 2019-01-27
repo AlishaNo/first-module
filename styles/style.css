@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+body * {
+    box-sizing: border-box
+}
+img {
+    width: auto;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+h2 {
+    font-weight: 400;
+    font-size: 36px;
+}
+h3 {
+    font-weight: 300;
+    font-size: 20px;
+}
+.top-section {
+    background: #041d43 url(../images/header_bg.png) no-repeat 0 0;
+    background-size: 100% auto;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 265px;
+}
+.top-section span {
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.31em;
+}
+.top-section form {
+    font-size: 0;
+    margin-top: 50px;
+}
+.top-section input {
+    height: 60px;
+    width: 500px;
+    vertical-align: center;
+    color: #ffffff;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    outline: none;
+    transition: 0.5s;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.top-section button {
+    text-align: left;
+    padding-left: 33px;
+    color: #ffffff;
+    background-color: #5474fd;
+    border: 2px solid #ffffff;
+    height: 60px;
+    width: 145px;
+    font-family: 'Aleo', serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    position: relative;
+}
+.top-section button img {
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: 28%;
+    right: 10%;
+}
+.top-section .scroll-to {
+    margin: 120px 0 120px 0;
+}
+.top-section .scroll-to a {
+    text-transform: none;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+}
+.top-section .scroll-to img {
+    position: absolute;
+    bottom: -150%;
+    left: 40%;
+}
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.holder {
+    overflow: hidden;
+}
+header {
+    background-color: #5474fd;
+    padding: 35px 0;
+}
+header nav {
+    float: right;
+    font-size: 14px;
+}
+header nav a {
+    padding-left: 45px;
+    transition: 0.3s;
+}
+
+header a.logo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.padding-set {
+    padding-top: 120px;
+}
+.about {
+    background: url("../images/castle.png") no-repeat 0 0;
+    min-height: 685px;
+}
+.about .about-info {
+    max-width: 540px;
+    float: left;
+}
+.about-info h2 {
+    padding-bottom: 60px;
+}
+.about-info p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    line-height: 26px;
+    margin-bottom: 41px;
+    margin-top: 0;
+}
+a.button {
+    display: block;
+    background: #5474fd url("../images/button-bg.png") no-repeat 0 0;
+    width: 225px;
+    height: 60px;
+    padding-top: 22px;
+    text-align: center;
+    font-family: 'Aleo', serif;
+    transition: 0.3s;
+}
+a.button:hover {
+    box-shadow: 0 1px 10px 2px #5474fd;
+}
+.about-photo {
+    margin-left: 70%;
+}
+.about-photo img:first-of-type {
+    position: relative;
+    right: 30%;
+}
+.about-photo img:last-of-type {
+
+}
+
+.services {
+    background-color: #333333;
+    padding: 100px 0;
+    min-height: 340px;
+}
+.services .flex-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.book {
+    background: url("../images/mountains.png") no-repeat 0 0;
+    min-height: 700px;
+}
+.book-info {
+    background-color: rgba(51, 44, 44, 0.9);
+    max-width: 540px;
+    padding: 45px 30px;
+    margin-left: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 26px;
+}
+.book-info h3,
+.book-info p {
+    font-weight: 300;
+}
+.book-info h3:first-of-type {
+    letter-spacing: 0.075em;
+    margin-bottom: 30px;
+}
+.book-info h3:last-of-type {
+    text-transform: uppercase;
+}
+.book-info p {
+    margin: 30px 0 45px 0;
+}
+.book-info a.button {
+    margin-left: auto;
+}
+.feedback {
+    background: url("../images/tourist_bg.png") no-repeat 0 0;
+    background-size: cover;
+    min-height: 735px;
+}
+.block-quote {
+    width: 100%;
+    background-color: #333333;
+    overflow: hidden;
+}
+.feedback h2 {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.quote-photo {
+    float: left;
+}
+footer {
+    background-color: #232323;
+   text-align: center;
+    padding-bottom: 50px;
+
+}
+footer div {
+    width: 170px;
+}
+footer strong {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.14em;
+}
+footer span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+}
+footer .social a {
+    margin-right: 20px;
+}
+footer .social a:last-of-type {
+    margin-right: 0;
+}
+footer .social {
+    margin-top: 30px
+}
